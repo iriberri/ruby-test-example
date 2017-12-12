@@ -1,0 +1,9 @@
+dist: trusty
+group: travis_latest
+
+language: ruby
+
+install: skip
+
+script:
+  - ruby calculator_test.rb
