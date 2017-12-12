@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../calculator'
+require_relative 'calculator'
 
 class Calculator_Test < Test::Unit::TestCase
   def setup
