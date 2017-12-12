@@ -9,6 +9,6 @@ script:
   - ruby calculator_test.rb
 
 deploy:
-  - provider: pages
-    api_key: $GITHUB_TOKEN
+  - provider: pages # check the site at https://iriberri.github.io/ruby-test-example/
+    github_token: $GITHUB_TOKEN
     skip_cleanup: true
