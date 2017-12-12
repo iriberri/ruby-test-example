@@ -5,8 +5,7 @@ language: ruby
 
 install: skip
 
-script:
-  - ruby calculator_test.rb
+script: ruby calculator_test.rb
 
 deploy:
   - provider: pages # check the site at https://iriberri.github.io/ruby-test-example/
