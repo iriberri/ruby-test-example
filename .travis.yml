@@ -5,8 +5,7 @@ language: ruby
 
 install: skip
 
-script:
-  - ruby calculator_test.rb
+script: ruby calculator_test.rb  
 
 # let's update our HTML file during build time, with some build data
 before_deploy:
